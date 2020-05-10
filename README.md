@@ -24,7 +24,7 @@ We used the IBM telecom dataset available from [kaggle.com](https://www.kaggle.c
 Develope accurate and effective predictive model using machine learning techniques to predict the customer churn well in advance. Refer the details below.
 
 Supervised Machine Learning Models Implemented in Churn Fortuneteller
-•	Random Forest Classifier (bagging) – Sum of individual decision trees and averaging over independent subsets of data (sampled with replacement)
+•	Random Forest Classifier (bagging) – Sum of individual decision trees and averaging over independent subsets of data (sampled with replacement) <br>
 •	XGBoost Classifier (boosting) - Each decision tree learns from errors from previous learners which are assigned higher weights, sequential learners, optimization over error function
 •	Chosen Model: Random Forest (Lower false negatives, higher F1-score and accuracy)
 Random Search Optimization 
@@ -37,6 +37,7 @@ Unsupervised K-Means Clustering
 •	Initialize k number of clusters and initial centroids randomly assigned
 •	Each instances assigned to nearest centroid which varies but eventually converges 
 •	Euclidean distance used to measure and keep track of each dataset instance to shifting nearest centroids
+
 
 **Solutions To Reduce Churn Rate**
 Acquiring a customer is far more costly than keeping a customer. Any company that wants to retain its customers should find some value in analysing and lowering down the churn rate. Even emerging markets, which witnessed high growth in the past, are now looking to consolidate their customer base and differentiate themselves from their peers to reduce churn rates.
